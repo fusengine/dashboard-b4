@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Title</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet"
+		href="css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<!-- Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent mb-5 nav-bar-dash">
+			<a href="#"
+				class="navbar-brand">
+				<img src="https://cdn.fusengine.ch/logo/Fusengine.svg"
+					width="35"
+					alt="fusengine">
+				Fuseboard
+				<small class="text-muted">V1</small>
+			</a>
+
+			<button class="navbar-toggler"
+				style="border:none"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbar_first"
+				aria-controls="navbar_first"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+
+			<div class="collapse text-center navbar-collapse"
+				id="navbar_first">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<div class="nav-link  custom-control custom-switch">
+							<input type="checkbox"
+								onclick="darkMode('dark-mode')"
+								class="custom-control-input"
+								id="customSwitch1">
+							<label class="custom-control-label"
+								for="customSwitch1"
+								id="dark-mode">Dark</label>
+						</div>
+
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle"
+							href="#"
+							id="navbarDropdown"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false">
+							<i class="fas fa-1x fa-user-circle"
+								style="color:#2b90d9;"></i>
+							compte
+						</a>
+						<div class="dropdown-menu"
+							aria-labelledby="navbarDropdown">
+							<a class="dropdown-item text-primary"
+								href="#">
+
+								<i class="fas fa-id-badge"></i> Profil
+							</a>
+
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item text-danger"
+								href="#">
+								<i class="fas fa-sign-out-alt"></i>
+								Déconnexion
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<div class="card shadow-sm"
+			style="border: none;">
+			<nav class="navbar navbar-expand-lg rounded-top navbar-dark bg-primary">
+				<div class="navbar-brand">
+					<i class="fab fa-buffer"
+						style="color:#75D701;"></i>
+				</div>
+				<button class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse text-center  navbar-collapse"
+					id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link"
+								href="#">Accueil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link"
+								href="#">A propos</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdownMenuLink"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false">
+								Services
+							</a>
+							<!-- bloc menu déroulant -->
+							<div class="dropdown-menu"
+								aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item"
+									href="#">Service 1</a>
+								<a class="dropdown-item"
+									href="#">Autre service action</a>
+								<a class="dropdown-item"
+									href="#">Dernier service</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link"
+								href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="card-body">
+				<h3 class="card-title">Special title treatment</h3>
+				<p class="card-text">With supporting text below as a natural lead-in to additional
+					content.
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<script src="js/index.js"></script>
+</body>
+
+</html>

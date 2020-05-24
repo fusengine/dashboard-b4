@@ -1,0 +1,59 @@
+html {
+	position: relative;
+	min-height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	padding-top: 1rem;
+	margin-bottom: 25rem;
+	padding: 25px;
+	font-size: 18px;
+}
+
+.center-block {
+	top: 50%;
+	left: 50%;
+	z-index: 100;
+	position: absolute;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.login.card {
+	width: 350px;
+	border: none;
+}
+
+.nav-bar-dash {
+	z-index: 7;
+	border-bottom: 2px solid#007bff;
+}
+
+/** Dark Mode **/
+.dark-mode {
+	background-color: #040d1b;
+	color: white !important;
+}
+
+.dark-mode .card {
+	background-color: #091830;
+}
+
+/** nav bar */
+.dark-mode .navbar-light .navbar-brand {
+	color: white !important;
+}
+.dark-mode .navbar-light .navbar-nav .nav-link {
+	color: rgb(131, 131, 131) !important;
+}
+
+.dark-mode .navbar-light .navbar-toggler {
+	color: white;
+	border-color: white;
+}
+
+/** Dark Mode **/
